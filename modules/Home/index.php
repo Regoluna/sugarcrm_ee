@@ -97,29 +97,12 @@ if(!$hasUserPreferences){
 	}
 	else{
         // This is here to get Sugar dashlets added above the rest
-        $dashlets[create_guid()] = array('className' => 'iFrameDashlet',
-                                         'module' => 'Home',
-                                         'forceColumn' => 0,
-                                         'fileLocation' => $dashletsFiles['iFrameDashlet']['file'],
-                                         'options' => array('titleLabel' => 'LBL_DASHLET_DISCOVER_SUGAR_PRO',
-                                                            'url' => 'https://www.sugarcrm.com/crm/product/gopro',
-                                                            'height' => 315,
-                                             ));
-
         $dashlets[create_guid()] = array ('className' => 'SugarFeedDashlet',
                                           'module' => 'SugarFeed',
                                           'forceColumn' => 1,
                                           'fileLocation' => $dashletsFiles['SugarFeedDashlet']['file'],
                                           );
 
-        $dashlets[create_guid()] = array('className' => 'iFrameDashlet',
-                                         'module' => 'Home',
-                                         'forceColumn' => 1,
-                                         'fileLocation' => $dashletsFiles['iFrameDashlet']['file'],
-                                         'options' => array('titleLabel' => 'LBL_DASHLET_SUGAR_NEWS',
-                                                            'url' => 'https://www.sugarcrm.com/crm/product/news',
-                                                            'height' => 315,
-                                             ));
 
 	    foreach($defaultDashlets as $dashletName=>$module){
 			// clint - fixes bug #20398
