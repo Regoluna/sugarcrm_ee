@@ -45,13 +45,22 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * Contributor(s): REDK Software Engineering (www.redk.net)
  ********************************************************************************/
  
+
 $mod_strings = array (
-  'LBL_FIELD_NAME' => 'Campo',
-  'LBL_OLD_NAME' => 'Valor Anterior',
-  'LBL_NEW_VALUE' => 'Valor Nuevo',
-  'LBL_CREATED_BY' => 'Cambiado Por',
-  'LBL_LIST_DATE' => 'Fecha de Cambio',
-  'LBL_AUDITED_FIELDS' => 'Campos auditados en este módulo: ',
-  'LBL_NO_AUDITED_FIELDS_TEXT' => 'No hay campos auditados en este módulo',
-  'LBL_CHANGE_LOG' => 'Registro de Cambios',
+  'LBL_ID' => 'ID',
+  'LBL_DATE_ENTERED' => 'Fecha de Creación',
+  'LBL_DATE_MODIFIED' => 'Última Modificación',
+  'LBL_MODIFIED' => 'Modificado Por',
+  'LBL_MODIFIED_ID' => 'Modificado Por Id',
+  'LBL_MODIFIED_NAME' => 'Modificado Por Nombre',
+  'LBL_CREATED' => 'Creado Por',
+  'LBL_CREATED_ID' => 'Creado Por Id',
+  'LBL_DESCRIPTION' => 'Descripción',
+  'LBL_DELETED' => 'Eliminado',
+  'LBL_NAME' => 'Nombre',
+  'LBL_CREATED_USER' => 'Creado Por Usuario',
+  'LBL_MODIFIED_USER' => 'Modificado Por Usuario',
+  'LBL_LIST_NAME' => 'Nombre',
+  'LBL_EDIT_BUTTON' => 'Editar',
+  'LBL_REMOVE' => 'Quitar',
 );
